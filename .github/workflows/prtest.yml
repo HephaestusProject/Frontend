@@ -27,4 +27,4 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install -g eslint
-          eslint . --ext .js,.jsx,.ts,.tsx
+          eslint . --ext .js,.jsx,.ts,.tsx src/**
